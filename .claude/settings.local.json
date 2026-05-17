@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx vue-tsc *)",
+      "Bash(curl -s http://localhost:8081/api/usage/by-model)",
+      "Bash(curl -s http://localhost:8081/api/settings)",
+      "Bash(curl *)"
+    ]
+  }
+}
